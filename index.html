@@ -3,11 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Raiz Viva — Produtos Naturais e Artesanais</title>
-<meta name="description" content="Mel, própolis, ervas, óleos e artesanato feitos à mão. Direto da roça pra sua casa.">
+<title>Clã Ñandereko — Roça Natural e Ancestral</title>
+<meta name="description" content="Mel, própolis, ervas e óleos feitos por uma família que vive de agroecologia no Assentamento Egídio Brunetto I, Lagoinha - SP.">
+<link rel="icon" href="images/logo.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -31,29 +32,20 @@
     <path d="M32 30c0-10-8-16-16-16 0 10 6 18 16 18Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
     <path d="M32 38c0-9 8-15 16-15 0 9-7 17-16 17Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
   </symbol>
-  <symbol id="icon-basket" viewBox="0 0 64 64">
-    <path d="M14 26h36l-4 26a4 4 0 0 1-4 3.5H22a4 4 0 0 1-4-3.5L14 26Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-    <path d="M14 26c6-3 30-3 36 0" stroke="currentColor" stroke-width="2.5" fill="none"/>
-    <path d="M22 32v18M32 32v18M42 32v18" stroke="currentColor" stroke-width="2"/>
-    <path d="M22 26c0-8 4-14 10-14s10 6 10 14" fill="none" stroke="currentColor" stroke-width="2.5"/>
-  </symbol>
-  <symbol id="icon-leaf-mark" viewBox="0 0 24 24">
-    <path d="M12 21c-5-1-8-5-8-11 0-3 1-6 3-8 2 2 3 5 3 8 0-3 1-6 3-8 2 2 3 5 3 8 0 6-3 10-8 11Z" fill="currentColor"/>
-  </symbol>
 </svg>
 
 <!-- Header -->
 <header class="site-header">
   <div class="wrap header-inner">
     <a href="#top" class="brand">
-      <svg class="brand-mark" viewBox="0 0 24 24" width="22" height="22"><use href="#icon-leaf-mark"/></svg>
-      Raiz Viva
+      <img class="brand-mark" src="images/logo.png" alt="Clã Ñandereko" width="36" height="36">
+      Clã Ñandereko
     </a>
     <nav class="main-nav" id="mainNav">
       <a href="#produtos">Produtos</a>
-      <a href="#sobre">A Raiz Viva</a>
+      <a href="#sobre">O Clã</a>
+      <a href="#assentamento">O Assentamento</a>
       <a href="#processo">Como Fazemos</a>
-      <a href="#contato">Contato</a>
     </nav>
     <div class="header-actions">
       <button class="btn btn-cart" id="openCartBtn" aria-label="Abrir carrinho">
@@ -72,12 +64,12 @@
   <section class="hero">
     <div class="hero-bg" aria-hidden="true"></div>
     <div class="wrap hero-inner">
-      <span class="eyebrow">🌱 RAIZ VIVA</span>
-      <h1>Da terra pra sua casa,<br>com as mãos que plantam e colhem.</h1>
-      <p class="hero-sub">Mel, própolis, ervas, óleos e artesanato feitos por uma família que vive de agroecologia. Cada lote é pequeno, sazonal e cuidado do início ao fim.</p>
+      <span class="eyebrow">🌿 CLÃ ÑANDEREKO</span>
+      <h1>Raízes que a gente planta,<br>cuida e colhe com as mãos.</h1>
+      <p class="hero-sub">Mel, própolis, ervas e óleos feitos por uma família que vive de agroecologia na Reforma Agrária do Vale do Paraíba. Ñandereko: nosso jeito de ser e viver.</p>
       <div class="hero-actions">
         <a href="#produtos" class="btn btn-primary">Ver todos os produtos</a>
-        <a href="#sobre" class="btn btn-outline">Conhecer a Raiz Viva</a>
+        <a href="#sobre" class="btn btn-outline">Conhecer o Clã</a>
       </div>
     </div>
   </section>
@@ -97,7 +89,6 @@
         <button class="filter-tab" data-filter="mel">Mel &amp; Própolis</button>
         <button class="filter-tab" data-filter="cuidados">Cuidados Naturais</button>
         <button class="filter-tab" data-filter="tinturas">Tinturas &amp; Ervas</button>
-        <button class="filter-tab" data-filter="artesanato">Artesanato</button>
       </div>
 
       <div class="products-grid" id="productsGrid">
@@ -109,22 +100,22 @@
   <!-- Sobre -->
   <section id="sobre" class="section about-section">
     <div class="wrap">
-      <h2>Quem faz a Raiz Viva</h2>
+      <h2>O Clã Ñandereko</h2>
       <div class="about-grid">
         <article class="about-card">
           <span class="about-icon" aria-hidden="true">🌾</span>
-          <h3>A Raiz Viva</h3>
+          <h3>O Clã</h3>
           <p>Uma família construindo, na prática, um jeito mais simples e conectado de viver — plantando, colhendo e cuidando com as próprias mãos.</p>
         </article>
-        <article class="about-card">
+        <article class="about-card" id="assentamento">
           <span class="about-icon" aria-hidden="true">🏡</span>
-          <h3>Onde Plantamos</h3>
-          <p>Vivemos e cultivamos em um pequeno sítio de agroecologia, onde cada canteiro e cada colmeia têm história e cuidado.</p>
+          <h3>O Assentamento</h3>
+          <p>A luta pela terra que deu origem ao Assentamento Egídio Brunetto I, em Lagoinha, no Vale do Paraíba.</p>
         </article>
         <article class="about-card" id="processo">
           <span class="about-icon" aria-hidden="true">🐝</span>
           <h3>Como Fazemos</h3>
-          <p>Apicultura biodinâmica, extração a frio e secagem lenta à sombra — sem pressa, do jeito que a natureza pede.</p>
+          <p>Agroecologia, apicultura biodinâmica e o passo a passo tradicional dos nossos produtos — sem pressa, do jeito que a natureza pede.</p>
         </article>
       </div>
     </div>
@@ -134,7 +125,7 @@
   <section class="section cta-section">
     <div class="wrap cta-inner">
       <h2>Sem preço fixo na vitrine — de propósito.</h2>
-      <p>Cada lote é pequeno e sazonal. Monte seu carrinho, deixe seu nome e WhatsApp e fale com a gente pelo chat: você recebe o valor, a taxa de entrega e o prazo certinho para o seu pedido.</p>
+      <p>Cada lote é pequeno e sazonal. Monte seu carrinho, cadastre nome e WhatsApp e fale com a gente pelo chat: você recebe o valor, a taxa de entrega e o prazo certinho para o seu pedido.</p>
       <button class="btn btn-primary" id="ctaOpenCart">Montar meu pedido</button>
     </div>
   </section>
@@ -146,31 +137,31 @@
   <div class="wrap footer-inner">
     <div class="footer-brand">
       <a href="#top" class="brand brand-footer">
-        <svg class="brand-mark" viewBox="0 0 24 24" width="20" height="20"><use href="#icon-leaf-mark"/></svg>
-        Raiz Viva
+        <img class="brand-mark" src="images/logo.png" alt="Clã Ñandereko" width="32" height="32">
+        Clã Ñandereko
       </a>
-      <p>Produtos naturais e artesanato feitos com as mãos que plantam e colhem.</p>
+      <p>Roça natural e ancestral. Assentamento Egídio Brunetto I, Lagoinha - SP.</p>
     </div>
     <div class="footer-col">
       <h4>Navegue</h4>
       <a href="#produtos">Produtos</a>
-      <a href="#sobre">A Raiz Viva</a>
+      <a href="#sobre">O Clã</a>
+      <a href="#assentamento">O Assentamento</a>
       <a href="#processo">Como Fazemos</a>
     </div>
     <div class="footer-col">
       <h4>Fale com a gente</h4>
       <a href="https://wa.me/5500000000000" target="_blank" rel="noopener">WhatsApp</a>
-      <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
-      <a href="mailto:contato@raizviva.com.br">contato@raizviva.com.br</a>
+      <a href="https://instagram.com/clanandereko" target="_blank" rel="noopener">@clanandereko</a>
     </div>
   </div>
   <div class="wrap footer-bottom">
-    <p>&copy; <span id="year"></span> Raiz Viva. Feito com as mãos e com a terra.</p>
+    <p>&copy; <span id="year"></span> Clã Ñandereko. Ñandereko: nosso jeito de ser e viver.</p>
   </div>
 </footer>
 
 <!-- Botão flutuante WhatsApp -->
-<button class="floating-whatsapp" id="floatingWhatsapp">Falar com a Raiz Viva</button>
+<button class="floating-whatsapp" id="floatingWhatsapp">Falar com o Clã</button>
 
 <!-- Carrinho -->
 <div class="cart-overlay" id="cartOverlay"></div>

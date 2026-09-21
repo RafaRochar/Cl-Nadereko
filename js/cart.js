@@ -1,8 +1,8 @@
-// Carrinho da Raiz Viva — sem preço fixo, fecha pedido via WhatsApp.
+// Carrinho da Clã Ñandereko — sem preço fixo, fecha pedido via WhatsApp.
 // Troque pelo número real da loja no formato internacional (DDI+DDD+número, só dígitos).
 const WHATSAPP_NUMBER = "5500000000000";
 
-const CART_STORAGE_KEY = "raizviva_cart";
+const CART_STORAGE_KEY = "clanandereko_cart";
 
 function loadCart() {
   try {
@@ -90,7 +90,7 @@ function buildWhatsappMessage() {
   const phone = document.getElementById("custPhone").value.trim();
   const entries = Object.entries(cart);
 
-  let msg = `Olá, Raiz Viva! Quero fazer um pedido:%0A%0A`;
+  let msg = `Olá, Clã Ñandereko! Quero fazer um pedido:%0A%0A`;
   entries.forEach(([id, qty]) => {
     const product = PRODUCTS.find((p) => p.id === id);
     if (product) msg += `• ${product.name} (${product.size}) — Qtd: ${qty}%0A`;
