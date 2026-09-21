@@ -43,7 +43,7 @@ function initAddToCart() {
     if (!btn) return;
     addToCart(btn.dataset.add);
     const original = btn.textContent;
-    btn.textContent = "Adicionado ✓";
+    btn.textContent = "Adicionado";
     btn.classList.add("is-added");
     setTimeout(() => {
       btn.textContent = original;

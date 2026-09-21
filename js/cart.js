@@ -98,7 +98,7 @@ function buildWhatsappMessage() {
   msg += `%0A`;
   if (name) msg += `Nome: ${name}%0A`;
   if (phone) msg += `WhatsApp: ${phone}%0A`;
-  msg += `%0APode me passar o valor, a taxa de entrega e o prazo? 🌱`;
+  msg += `%0APode me passar o valor, a taxa de entrega e o prazo?`;
   return msg;
 }
 

@@ -32,6 +32,11 @@
     <path d="M32 30c0-10-8-16-16-16 0 10 6 18 16 18Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
     <path d="M32 38c0-9 8-15 16-15 0 9-7 17-16 17Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
   </symbol>
+  <symbol id="icon-land" viewBox="0 0 64 64">
+    <path d="M10 30 32 12l22 18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M16 26v24h32V26" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M27 50V36h10v14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+  </symbol>
 </svg>
 
 <!-- Header -->
@@ -64,7 +69,7 @@
   <section class="hero">
     <div class="hero-bg" aria-hidden="true"></div>
     <div class="wrap hero-inner">
-      <span class="eyebrow">🌿 CLÃ ÑANDEREKO</span>
+      <span class="eyebrow">CLÃ ÑANDEREKO</span>
       <h1>Raízes que a gente planta,<br>cuida e colhe com as mãos.</h1>
       <p class="hero-sub">Mel, própolis, ervas e óleos feitos por uma família que vive de agroecologia na Reforma Agrária do Vale do Paraíba. Ñandereko: nosso jeito de ser e viver.</p>
       <div class="hero-actions">
@@ -103,17 +108,17 @@
       <h2>O Clã Ñandereko</h2>
       <div class="about-grid">
         <article class="about-card">
-          <span class="about-icon" aria-hidden="true">🌾</span>
+          <svg class="about-icon" viewBox="0 0 64 64" aria-hidden="true"><use href="#icon-herb"/></svg>
           <h3>O Clã</h3>
           <p>Uma família construindo, na prática, um jeito mais simples e conectado de viver — plantando, colhendo e cuidando com as próprias mãos.</p>
         </article>
         <article class="about-card" id="assentamento">
-          <span class="about-icon" aria-hidden="true">🏡</span>
+          <svg class="about-icon" viewBox="0 0 64 64" aria-hidden="true"><use href="#icon-land"/></svg>
           <h3>O Assentamento</h3>
           <p>A luta pela terra que deu origem ao Assentamento Egídio Brunetto I, em Lagoinha, no Vale do Paraíba.</p>
         </article>
         <article class="about-card" id="processo">
-          <span class="about-icon" aria-hidden="true">🐝</span>
+          <svg class="about-icon" viewBox="0 0 64 64" aria-hidden="true"><use href="#icon-honey"/></svg>
           <h3>Como Fazemos</h3>
           <p>Agroecologia, apicultura biodinâmica e o passo a passo tradicional dos nossos produtos — sem pressa, do jeito que a natureza pede.</p>
         </article>
@@ -168,7 +173,7 @@
 <aside class="cart-drawer" id="cartDrawer" aria-label="Carrinho de compras">
   <div class="cart-header">
     <h2>Seu carrinho</h2>
-    <button class="cart-close" id="closeCartBtn" aria-label="Fechar carrinho">fechar ✕</button>
+    <button class="cart-close" id="closeCartBtn" aria-label="Fechar carrinho">fechar ×</button>
   </div>
 
   <div class="cart-body" id="cartBody">
